@@ -1,13 +1,11 @@
-.rounded-xl {
-  border-radius: 0.75rem;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Space+Grotesk&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
 }
 
-.has-image-background {
-  background: url('https://picsum.photos/id/235/1920/1080');
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  min-height: 100vh;
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .blur-effect {

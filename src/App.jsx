@@ -64,6 +64,7 @@ export default function App() {
 
   return (
     <div
+      className="py-4"
       style={{
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundRepeat: 'no-repeat',
