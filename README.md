@@ -11,3 +11,9 @@ Search for a city in the search form and click search button or Enter key
 - Weather Info By City
 - Weather Forecast weekly
 - Change background immediately
+- Develop locally without installing any deps with Docker
+
+
+## Run dev env with docker
+- cd to root dir
+- run ```docker compose up```
