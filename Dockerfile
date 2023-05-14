@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:lts-alpine
 
 WORKDIR /app
 
@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5173
 
 CMD ["npm", "run", "dev"]
 
